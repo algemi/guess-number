@@ -30,12 +30,12 @@ while chances < 7:
 
     if chances == 7:
         number = str(number)
-        print('You lose! The correct number is ' + number * '.')
+        print('You lose! The correct number is ' + number + '.')
 
-    user_option = input('Play again? (yes/no) ')
-    if user_option in ['yes', 'Yes', 'y', 'Y', '']:
-        pass
-    elif user_option in ['No', 'no']:
-        break
-    else:
-        break
+        user_option = input('Play again? (yes/no) ')
+        if user_option in ['yes', 'Yes', 'y', 'Y', '']:
+            pass
+        elif user_option in ['No', 'no']:
+            break
+        else:
+            break
